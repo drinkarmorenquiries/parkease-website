@@ -1,0 +1,1 @@
+ParkEase static website. Upload these files to a GitHub repository root. On Render create Static Site, connect repository, Build Command: echo ready, Publish Directory: .  Use free tier where available.
