@@ -1,0 +1,9 @@
+/* ParkEase full-image display patch. Paste at the END of the existing <style> block. */
+#gallery .gallery-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:42px;max-width:1380px;margin:32px auto 0}
+#gallery .gallery-grid figure{margin:0;overflow:visible;border:1px solid #31556c;border-radius:18px;background:#112c42;padding:12px}
+#gallery .gallery-grid img{display:block;width:100%;height:auto;max-height:none;aspect-ratio:auto;object-fit:contain;object-position:center;border-radius:10px;background:#07182c}
+#gallery .gallery-grid figcaption{padding:20px 14px 12px;overflow:visible}
+#gallery .gallery-grid figcaption strong{font-size:clamp(20px,2.2vw,28px)}
+#gallery .gallery-grid figcaption p{font-size:clamp(15px,1.35vw,18px)}
+.split img{display:block;width:100%;height:auto;max-height:none;aspect-ratio:auto;object-fit:contain}
+@media(max-width:780px){#gallery .gallery-grid{gap:25px}#gallery .gallery-grid figure{padding:6px}#gallery .gallery-grid figcaption{padding:16px 10px 12px}#gallery{padding-left:3%;padding-right:3%}}
